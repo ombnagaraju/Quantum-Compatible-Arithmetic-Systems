@@ -44,35 +44,81 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ How to Run
+## ▶️ How to Run (IMPORTANT FOR REVIEWERS)
 
-1. Launch Jupyter Notebook:
-   jupyter notebook
+### Step 1: Prepare Files
 
-2. Open:
-   QIP Python Codes E-prime.ipynb
+- Download the notebook:
+  QIP Python Codes E-prime.ipynb
+- Place your input image (e.g., sample.png) in the same folder as the notebook  
 
-3. Run all cells
+👉 Both files must be in the same directory
+
+---
+
+### Step 2: Launch Jupyter Notebook
+
+jupyter notebook
+
+---
+
+### Step 3: Open Notebook
+
+Open:
+QIP Python Codes E-prime.ipynb
+
+---
+
+### Step 4: Execute
+
+- Run all cells sequentially  
+- Ensure no cells are skipped  
+
+---
+
+## 📊 Expected Outputs
+
+After execution, you should observe:
+
+- ✔ Quantum circuit visualization  
+- ✔ Simulation histogram (ideal case)  
+- ✔ Noise comparison results  
+- ✔ Image processing outputs  
+- ✔ PSNR and SSIM values  
 
 ---
 
 ## 🧪 Experimental Components
 
-- Reversible Vedic multiplier (2×2 and 4×4)
-- Clifford+T decomposition
-- Noise-aware simulation
-- IBM Quantum execution
-- Image processing applications
+- Reversible Vedic multiplier (2×2 and 4×4)  
+- Clifford+T decomposition analysis  
+- Noise-aware simulation  
+- IBM Quantum hardware execution  
+- Image processing applications  
 
 ---
 
 ## 📊 Evaluation Metrics
 
-- Quantum Cost (QC)
-- T-count and T-depth
-- Fidelity
-- PSNR
-- SSIM
+- Quantum Cost (QC)  
+- T-count and T-depth  
+- Fidelity analysis  
+- PSNR  
+- SSIM  
+
+---
+
+## ☁️ Quantum Backend
+
+- IBM Quantum Platform  
+- Backend: ibm_brisbane  
+- Shots: 1024  
+
+---
+
+## 🔁 Reproducibility
+
+All results in the manuscript can be reproduced using the provided notebook and dataset.
 
 ---
 
