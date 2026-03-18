@@ -41,6 +41,23 @@ README.md         → Documentation
 ## ⚙️ Requirements
 
 pip install -r requirements.txt
+or
+# Core quantum stack
+!pip install qiskit==2.3.0
+!pip install qiskit-aer==0.17.2
+!pip install qiskit-ibm-runtime==0.45.0
+
+# Scientific stack
+!pip install numpy==1.26.4
+!pip install matplotlib==3.8.4
+!pip install pillow==10.3.0
+
+# Metrics
+!pip install scipy==1.13.1
+!pip install scikit-image==0.23.2
+
+# Notebook environment
+!pip install jupyter==1.0.0 notebook==7.2.1 ipykernel==6.29.4
 
 ---
 
@@ -50,7 +67,7 @@ pip install -r requirements.txt
 
 - Download the notebook:
   QIP Python Codes E-prime.ipynb
-- Place your input image (e.g., sample.png) in the same folder as the notebook  
+- Place your input image (e.g., cameraman.png, and peeprs.png) in the same folder as the notebook  
 
 👉 Both files must be in the same directory
 
